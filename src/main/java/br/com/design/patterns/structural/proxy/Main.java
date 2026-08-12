@@ -1,7 +1,7 @@
-package br.com.design.patterns.proxy;
+package br.com.design.patterns.structural.proxy;
 
 import br.com.base.service.ReportService;
-import br.com.design.patterns.proxy.service.ReportServiceImplProxy;
+import br.com.design.patterns.structural.proxy.service.ReportServiceImplProxy;
 
 public class Main {
 

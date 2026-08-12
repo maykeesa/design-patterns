@@ -2,7 +2,7 @@
 
 O proxy é um design pattern que intermedia a comunicação entre dois pontos através de um substituto/cópia. O proxy controla o acesso ao objeto original, podendo realizar ações previamente ou posteriormente.
 
-> 💡 [Exemplo prático](https://github.com/maykeesa/design-patterns/tree/main/src/main/java/br/com/design/patterns/proxy)
+> 💡 [Exemplo prático](https://github.com/maykeesa/design-patterns/tree/main/src/main/java/br/com/design/patterns/structural/proxy)
 
 ## Aplicabilidade
 

@@ -1,4 +1,4 @@
-package br.com.design.patterns.proxy.service;
+package br.com.design.patterns.structural.proxy.service;
 
 import br.com.base.service.ReportService;
 import br.com.base.service.ReportServiceImpl;
