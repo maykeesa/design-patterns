@@ -1,4 +1,4 @@
-package br.com.base.service;
+package br.com.design.patterns.structural.proxy.service;
 
 public class ReportServiceImpl implements ReportService {
 

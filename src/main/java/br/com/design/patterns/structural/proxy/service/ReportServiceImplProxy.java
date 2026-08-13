@@ -1,7 +1,5 @@
 package br.com.design.patterns.structural.proxy.service;
 
-import br.com.base.service.ReportService;
-import br.com.base.service.ReportServiceImpl;
 import com.github.benmanes.caffeine.cache.Cache;
 import com.github.benmanes.caffeine.cache.Caffeine;
 
