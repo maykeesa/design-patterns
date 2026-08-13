@@ -7,6 +7,7 @@ Repositório com implementações práticas de Design Patterns em Java puro, sem
 | Pattern | Categoria | Descrição |
 |---------|-----------|-----------|
 | [Proxy](docs/Proxy.md) | Estrutural | Intermediador que controla o acesso ao objeto original |
+| [Singleton](docs/Singleton.md) | Criacional | Garante uma única instância de uma classe em todo o projeto |
 
 ## 🤝 Colaboradores
 <table>
