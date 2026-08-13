@@ -19,6 +19,10 @@ Sua tarefa é converter o arquivo Obsidian MD informado pelo usuário (${args}) 
      ```
      Use essas informações para montar o item na seção `## Referências` no final do documento.
      Formato: `- [<Título do Vídeo> - <Nome do Canal>](<url>)`
+   - **Refactoring Guru**: sempre inclua como **primeiro item** da seção `## Referências` o link do Refactoring Guru para o pattern.
+     Derive o nome do pattern a partir do nome do arquivo (sem extensão), em letras minúsculas e com hífens no lugar de espaços.
+     Formato: `- [<NomeDoPattern> - Refactoring Guru](https://refactoring.guru/pt-br/design-patterns/<nome-do-pattern>)`
+     Exemplo para `Proxy.md`: `- [Proxy - Refactoring Guru](https://refactoring.guru/pt-br/design-patterns/proxy)`
    - `example:` → vira um blockquote logo após o texto da primeira seção `## O que é ...?`
      Formato: `> 💡 [Exemplo prático](<url>)`
    - `tags:` → descarte (não aparece no MD final)

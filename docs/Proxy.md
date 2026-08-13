@@ -18,5 +18,5 @@ O proxy é um design pattern que intermedia a comunicação entre dois pontos at
 ![](images/Pasted%20image%2020260811213148.png)
 
 ## Referências
-
+- [Proxy - Refactoring Guru](https://refactoring.guru/pt-br/design-patterns/proxy)
 - [Padrão de Projeto Proxy: Melhore a Arquitetura do Seu Código Usando Orientação a Objetos! - Renato Augusto](https://www.youtube.com/watch?v=el1MtIPXTqo&list=PLNHxHgB-_LTt67szNmMsZwqBKq9jH4uKJ)
