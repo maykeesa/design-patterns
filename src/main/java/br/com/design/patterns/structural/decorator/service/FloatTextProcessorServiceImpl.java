@@ -1,11 +1,11 @@
 package br.com.design.patterns.structural.decorator.service;
 
-public class BooleanTextProcessorServiceImpl implements BaseTextProcessorService{
+public class FloatTextProcessorServiceImpl implements BaseTextProcessorService{
 
-    private final boolean value;
+    private final float value;
     private final BaseTextProcessorService baseTextProcessorService;
 
-    public BooleanTextProcessorServiceImpl(BaseTextProcessorService baseTextProcessorService, boolean value) {
+    public FloatTextProcessorServiceImpl(BaseTextProcessorService baseTextProcessorService, float value) {
         this.value = value;
         this.baseTextProcessorService = baseTextProcessorService;
     }
@@ -14,6 +14,6 @@ public class BooleanTextProcessorServiceImpl implements BaseTextProcessorService
     public String process(String message) {
         String text = this.baseTextProcessorService.process(message);
 
-        return "%s %s".formatted(text, this.value);
+        return "%s %s".formatted(text, value);
     }
 }

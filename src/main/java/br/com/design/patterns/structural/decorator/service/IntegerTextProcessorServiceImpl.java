@@ -2,8 +2,8 @@ package br.com.design.patterns.structural.decorator.service;
 
 public class IntegerTextProcessorServiceImpl implements BaseTextProcessorService{
 
-    private Integer value;
-    private BaseTextProcessorService baseTextProcessorService;
+    private final Integer value;
+    private final BaseTextProcessorService baseTextProcessorService;
 
     public IntegerTextProcessorServiceImpl(BaseTextProcessorService baseTextProcessorService, Integer value) {
         this.value = value;
